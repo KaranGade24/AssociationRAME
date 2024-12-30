@@ -215,10 +215,12 @@
 @media (max-width: 1080px) {
   .slider-container {
     height: 200px;
+    width: 85%;
   }
 }
 @media (max-width: 720px) {
   .slider-container {
     height: 150px;
+    width: 95%;
   }
 }
