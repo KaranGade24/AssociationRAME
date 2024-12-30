@@ -54,7 +54,7 @@
 }
 .slider .slide {
   display: flex;
-  width: 65%;
+  width: 80%;
   height: 100%;
   margin: auto;
   overflow: hidden;
@@ -210,4 +210,20 @@
   text-align: center;
   margin-top: 20px;
   font-size: 14px;
+}
+
+@media (max-width: 1080px) {
+  .slider-container {
+    height: 200px;
+  }
+}
+@media (max-width: 720px) {
+  .slider-container {
+    height: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .slider-container {
+    height: 100px;
+  }
 }
